@@ -6,7 +6,7 @@ class Television:
 
     def __init__(self) -> None:
         """
-
+        Sets the default state of the tv
         """
         self.channel: int = Television.MIN_CHANNEL
         self.volume: int = Television.MIN_VOLUME
